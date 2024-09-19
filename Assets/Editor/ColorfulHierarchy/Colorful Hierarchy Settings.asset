@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enabled: 1
   overridePrefabIcons: 0
-  enableToolTips: 1
   objectDataModel:
     ObjectDataList:
     - ObjectIdentifier: 12538154
