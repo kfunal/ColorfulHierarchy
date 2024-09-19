@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562b80493a1a98546898651a2aa11253, type: 3}
+  m_Name: Colorful Hierarchy Settings
+  m_EditorClassIdentifier: 
+  enabled: 1
+  overridePrefabIcons: 0
+  enableToolTips: 1
+  objectDataModel:
+    ObjectDataList:
+    - ObjectIdentifier: 12538154
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 1
+      GradientColors:
+        colors:
+        - {r: 0, g: 0, b: 0, a: 0}
+        - {r: 1, g: 0, b: 0, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IconName: d_Camera Icon
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f
+    - ObjectIdentifier: 1517457286
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 0
+      GradientColors:
+        colors:
+        - {r: 0.82896787, g: 0.49019608, b: 1, a: 0}
+        - {r: 0.457057, g: 0, b: 1, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IconName: d_DirectionalLight Icon
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f
+    - ObjectIdentifier: 800565737
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 0
+      GradientColors:
+        colors:
+        - {r: 1, g: 0.78431374, b: 0.5882353, a: 0}
+        - {r: 1, g: 0.49331057, b: 0, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 1}
+      IconName: d_AudioImporter Icon
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f
+    - ObjectIdentifier: 355005540
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 1
+      GradientColors:
+        colors:
+        - {r: 1, g: 0.78431374, b: 0.5882353, a: 0}
+        - {r: 1, g: 0.49331057, b: 0, a: 1}
+      TextColor: {r: 0.53010046, g: 1, b: 0, a: 1}
+      IconName: 
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f
+    - ObjectIdentifier: 1822867280
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 1
+      GradientColors:
+        colors: []
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IconName: 
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f
+    - ObjectIdentifier: 1562602273
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 1
+      GradientColors:
+        colors: []
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IconName: 
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f
+    - ObjectIdentifier: 1748931650
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 0
+      GradientColors:
+        colors:
+        - {r: 1, g: 0.49019608, b: 1, a: 0}
+        - {r: 1, g: 0, b: 1, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IconName: d_Mesh Icon
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f
+    - ObjectIdentifier: 21548444
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 0
+      GradientColors:
+        colors:
+        - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+        - {r: 0, g: 1, b: 0, a: 1}
+      TextColor: {r: 1, g: 0.9940315, b: 0, a: 1}
+      IconName: d_Mesh Icon
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f
+    - ObjectIdentifier: 1776733485
+      IsSelected: 0
+      IsHovered: 0
+      IsDropDownHovered: 0
+      AutoIcon: 0
+      GradientColors:
+        colors:
+        - {r: 0.6862745, g: 1, b: 1, a: 0}
+        - {r: 0, g: 1, b: 1, a: 1}
+      TextColor: {r: 0, g: 0.03578186, b: 1, a: 1}
+      IconName: 
+      SceneName: b6e38cbdfa74a4a44ab997e17c88e96f

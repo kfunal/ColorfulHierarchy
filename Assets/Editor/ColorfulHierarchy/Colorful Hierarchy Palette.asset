@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3501716b5f7274cbfc2a1da18911fa, type: 3}
+  m_Name: Colorful Hierarchy Palette
+  m_EditorClassIdentifier: 
+  icons:
+  - name: d_winbtn_win_close_a@2x
+    texture: {fileID: 8957208253269266074, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Camera Icon
+    texture: {fileID: 7226769568068977144, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_GameObject Icon
+    texture: {fileID: -7606759526039521141, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Prefab Icon
+    texture: {fileID: 7853449062886713960, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_BoxCollider Icon
+    texture: {fileID: 5725305819640465133, guid: 0000000000000000d000000000000000, type: 0}
+  - name: Folder On Icon
+    texture: {fileID: 4281298531306990141, guid: 0000000000000000d000000000000000, type: 0}
+  - name: FolderOpened On Icon
+    texture: {fileID: -7953589416335112240, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_FolderEmpty On Icon
+    texture: {fileID: 1502299789800141446, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Favorite On Icon
+    texture: {fileID: -4808714455096377212, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_cs Script Icon
+    texture: {fileID: -8204150473280056172, guid: 0000000000000000d000000000000000, type: 0}
+  - name: GameManager Icon
+    texture: {fileID: 8872333681490167307, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ScriptableObject Icon
+    texture: {fileID: 2376468200823113483, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Transform Icon
+    texture: {fileID: 148978298399363526, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_RectTransform Icon
+    texture: {fileID: -1575620288787673585, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Rigidbody Icon
+    texture: {fileID: -614948363165286231, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Avatar Icon
+    texture: {fileID: -3795152337350425143, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AnimatorController Icon
+    texture: {fileID: -5540264361198448834, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Mesh Icon
+    texture: {fileID: 5243786984396574768, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_DirectionalLight Icon
+    texture: {fileID: -2268488020772222307, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Spotlight Icon
+    texture: {fileID: -2733580587900965755, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Light Icon
+    texture: {fileID: 1992151432481503067, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AudioSource Icon
+    texture: {fileID: 5988843443690612340, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AreaLight Icon
+    texture: {fileID: -2462194805134264945, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AudioImporter Icon
+    texture: {fileID: 475581496394372984, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AudioMixerController Icon
+    texture: {fileID: 3189075063946049329, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AudioListener Icon
+    texture: {fileID: -3250772413011610475, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Microphone Icon
+    texture: {fileID: 985111829274883151, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_greenLight
+    texture: {fileID: 2158857582549356844, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_orangeLight
+    texture: {fileID: -8167136607454143530, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_redLight
+    texture: {fileID: -3646618881647911098, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_mac_max@2x
+    texture: {fileID: -1050733075554916517, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_mac_min@2x
+    texture: {fileID: 1455755320244255718, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_mac_close@2x
+    texture: {fileID: 705647830567767348, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot4_pix16_gizmo
+    texture: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot5_pix16_gizmo
+    texture: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot6_pix16_gizmo
+    texture: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot7_pix16_gizmo
+    texture: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot1_pix16_gizmo
+    texture: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot2_pix16_gizmo
+    texture: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot3_pix16_gizmo
+    texture: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot0_pix16_gizmo
+    texture: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  - name: Error@2x
+    texture: {fileID: 1995842370011243426, guid: 0000000000000000d000000000000000, type: 0}
+  - name: Warning@2x
+    texture: {fileID: -627304555572474643, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_win_max@2x
+    texture: {fileID: -3100346485037607728, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_win_restore_h@2x
+    texture: {fileID: 2540937109819858409, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Shader Icon
+    texture: {fileID: -5962505394399907832, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot10_pix16_gizmo
+    texture: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot13_pix16_gizmo
+    texture: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot12_pix16_gizmo
+    texture: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot11_pix16_gizmo
+    texture: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot14_pix16_gizmo
+    texture: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot15_pix16_gizmo
+    texture: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot8_pix16_gizmo
+    texture: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot9_pix16_gizmo
+    texture: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PlatformEffector2D Icon
+    texture: {fileID: -4280463815080762487, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PointEffector2D Icon
+    texture: {fileID: 1754417221992040693, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_RenderTexture Icon
+    texture: {fileID: -4189084624433949143, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_RelativeJoint2D Icon
+    texture: {fileID: -757332629082491613, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SurfaceEffector2D Icon
+    texture: {fileID: -8048572862003724531, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_TerrainData Icon
+    texture: {fileID: 2601119426399001557, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_TerrainCollider Icon
+    texture: {fileID: 8812993143395379715, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_VisualEffect Icon
+    texture: {fileID: -3348444960227508024, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SpriteRenderer Icon
+    texture: {fileID: 5134774851033864187, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_WheelCollider Icon
+    texture: {fileID: -6885338036142599965, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_GridView On@2x
+    texture: {fileID: -4985483269759438643, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Skybox Icon
+    texture: {fileID: 3993571464490012678, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_WindZone Icon
+    texture: {fileID: -4233099713785801186, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_tree_icon_branch_frond
+    texture: {fileID: 1245402215010373504, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_tree_icon_frond
+    texture: {fileID: 4397212793807811582, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_tree_icon_leaf
+    texture: {fileID: -6339206214482627575, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_MoveTool On@2x
+    texture: {fileID: 3500650182120335439, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SpriteMask Icon
+    texture: {fileID: 8245622534036519826, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_TargetJoint2D Icon
+    texture: {fileID: 4215790347392998379, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_RaycastCollider Icon
+    texture: {fileID: 5953260147515872911, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SpringJoint2D Icon
+    texture: {fileID: 8675268643918541391, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Terrain Icon
+    texture: {fileID: -4247661333715606840, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SceneAsset Icon
+    texture: {fileID: 985423054452513129, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SpriteAtlasAsset Icon
+    texture: {fileID: -6416366940944881821, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_NavMeshAgent Icon
+    texture: {fileID: 3897814842762760142, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_NavMeshData Icon
+    texture: {fileID: -1526951116105809391, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_NavMeshObstacle Icon
+    texture: {fileID: -5015426118682326553, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_OffMeshLink Icon
+    texture: {fileID: -1543109780647302783, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AnimationClip Icon
+    texture: {fileID: -3945805152363740611, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ReflectionProbe Icon
+    texture: {fileID: -1426863774865177168, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ArticulationBody Icon
+    texture: {fileID: 4173395557176138114, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Sprite Icon
+    texture: {fileID: -7488892736546010119, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_BoxCollider2D Icon
+    texture: {fileID: 2230726447646993015, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_BuoyancyEffector2D Icon
+    texture: {fileID: 3491322054811378011, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Canvas Icon
+    texture: {fileID: 6918890264710435130, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CapsuleCollider Icon
+    texture: {fileID: 4324838011611431935, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CapsuleCollider2D Icon
+    texture: {fileID: -2692084220489661059, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CharacterController Icon
+    texture: {fileID: 1265989506976873869, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CharacterJoint Icon
+    texture: {fileID: 1875044191613582765, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CircleCollider2D Icon
+    texture: {fileID: 7882515739285264159, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Cloth Icon
+    texture: {fileID: -4589857841803046298, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CompositeCollider2D Icon
+    texture: {fileID: -2004682403923740574, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ConfigurableJoint Icon
+    texture: {fileID: -8365020397241257277, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ConstantForce Icon
+    texture: {fileID: -3622910732158155974, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_EventSystem Icon
+    texture: {fileID: -4387529911086606607, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ConstantForce2D Icon
+    texture: {fileID: -5712622568368013079, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_DistanceJoint2D Icon
+    texture: {fileID: 6664071900287422854, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_WheelJoint2D Icon
+    texture: {fileID: 6192141092834927191, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_EdgeCollider2D Icon
+    texture: {fileID: -4574213285256128959, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_FixedJoint Icon
+    texture: {fileID: -7056137702951936110, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_FrictionJoint2D Icon
+    texture: {fileID: 4037354640048256451, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Grid Icon
+    texture: {fileID: 2925954276054455316, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_HingeJoint Icon
+    texture: {fileID: -7049302993581372179, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_HingeJoint2D Icon
+    texture: {fileID: 4952710011494502320, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_LineRenderer Icon
+    texture: {fileID: -503134899462992896, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PolygonCollider2D Icon
+    texture: {fileID: -6584174250388574261, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_MeshCollider Icon
+    texture: {fileID: 8799233773559208360, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PhysicMaterial Icon
+    texture: {fileID: -1218883958213205822, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PhysicsMaterial2D Icon
+    texture: {fileID: 2086867310453074094, guid: 0000000000000000d000000000000000, type: 0}
+  defaultIcons:
+  - name: d_winbtn_win_close_a@2x
+    texture: {fileID: 8957208253269266074, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Camera Icon
+    texture: {fileID: 7226769568068977144, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_GameObject Icon
+    texture: {fileID: -7606759526039521141, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Prefab Icon
+    texture: {fileID: 7853449062886713960, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_BoxCollider Icon
+    texture: {fileID: 5725305819640465133, guid: 0000000000000000d000000000000000, type: 0}
+  - name: Folder On Icon
+    texture: {fileID: 4281298531306990141, guid: 0000000000000000d000000000000000, type: 0}
+  - name: FolderOpened On Icon
+    texture: {fileID: -7953589416335112240, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_FolderEmpty On Icon
+    texture: {fileID: 1502299789800141446, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Favorite On Icon
+    texture: {fileID: -4808714455096377212, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_cs Script Icon
+    texture: {fileID: -8204150473280056172, guid: 0000000000000000d000000000000000, type: 0}
+  - name: GameManager Icon
+    texture: {fileID: 8872333681490167307, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ScriptableObject Icon
+    texture: {fileID: 2376468200823113483, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Transform Icon
+    texture: {fileID: 148978298399363526, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_RectTransform Icon
+    texture: {fileID: -1575620288787673585, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Rigidbody Icon
+    texture: {fileID: -614948363165286231, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Avatar Icon
+    texture: {fileID: -3795152337350425143, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AnimatorController Icon
+    texture: {fileID: -5540264361198448834, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Mesh Icon
+    texture: {fileID: 5243786984396574768, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_DirectionalLight Icon
+    texture: {fileID: -2268488020772222307, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Spotlight Icon
+    texture: {fileID: -2733580587900965755, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Light Icon
+    texture: {fileID: 1992151432481503067, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AudioSource Icon
+    texture: {fileID: 5988843443690612340, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AreaLight Icon
+    texture: {fileID: -2462194805134264945, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AudioImporter Icon
+    texture: {fileID: 475581496394372984, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AudioMixerController Icon
+    texture: {fileID: 3189075063946049329, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AudioListener Icon
+    texture: {fileID: -3250772413011610475, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Microphone Icon
+    texture: {fileID: 985111829274883151, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_greenLight
+    texture: {fileID: 2158857582549356844, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_orangeLight
+    texture: {fileID: -8167136607454143530, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_redLight
+    texture: {fileID: -3646618881647911098, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_mac_max@2x
+    texture: {fileID: -1050733075554916517, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_mac_min@2x
+    texture: {fileID: 1455755320244255718, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_mac_close@2x
+    texture: {fileID: 705647830567767348, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot4_pix16_gizmo
+    texture: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot5_pix16_gizmo
+    texture: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot6_pix16_gizmo
+    texture: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot7_pix16_gizmo
+    texture: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot1_pix16_gizmo
+    texture: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot2_pix16_gizmo
+    texture: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot3_pix16_gizmo
+    texture: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot0_pix16_gizmo
+    texture: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  - name: Error@2x
+    texture: {fileID: 1995842370011243426, guid: 0000000000000000d000000000000000, type: 0}
+  - name: Warning@2x
+    texture: {fileID: -627304555572474643, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_win_max@2x
+    texture: {fileID: -3100346485037607728, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_winbtn_win_restore_h@2x
+    texture: {fileID: 2540937109819858409, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Shader Icon
+    texture: {fileID: -5962505394399907832, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot10_pix16_gizmo
+    texture: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot13_pix16_gizmo
+    texture: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot12_pix16_gizmo
+    texture: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot11_pix16_gizmo
+    texture: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot14_pix16_gizmo
+    texture: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot15_pix16_gizmo
+    texture: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot8_pix16_gizmo
+    texture: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+  - name: sv_icon_dot9_pix16_gizmo
+    texture: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PlatformEffector2D Icon
+    texture: {fileID: -4280463815080762487, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PointEffector2D Icon
+    texture: {fileID: 1754417221992040693, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_RenderTexture Icon
+    texture: {fileID: -4189084624433949143, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_RelativeJoint2D Icon
+    texture: {fileID: -757332629082491613, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SurfaceEffector2D Icon
+    texture: {fileID: -8048572862003724531, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_TerrainData Icon
+    texture: {fileID: 2601119426399001557, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_TerrainCollider Icon
+    texture: {fileID: 8812993143395379715, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_VisualEffect Icon
+    texture: {fileID: -3348444960227508024, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SpriteRenderer Icon
+    texture: {fileID: 5134774851033864187, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_WheelCollider Icon
+    texture: {fileID: -6885338036142599965, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_GridView On@2x
+    texture: {fileID: -4985483269759438643, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Skybox Icon
+    texture: {fileID: 3993571464490012678, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_WindZone Icon
+    texture: {fileID: -4233099713785801186, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_tree_icon_branch_frond
+    texture: {fileID: 1245402215010373504, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_tree_icon_frond
+    texture: {fileID: 4397212793807811582, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_tree_icon_leaf
+    texture: {fileID: -6339206214482627575, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_MoveTool On@2x
+    texture: {fileID: 3500650182120335439, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SpriteMask Icon
+    texture: {fileID: 8245622534036519826, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_TargetJoint2D Icon
+    texture: {fileID: 4215790347392998379, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_RaycastCollider Icon
+    texture: {fileID: 5953260147515872911, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SpringJoint2D Icon
+    texture: {fileID: 8675268643918541391, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Terrain Icon
+    texture: {fileID: -4247661333715606840, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SceneAsset Icon
+    texture: {fileID: 985423054452513129, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_SpriteAtlasAsset Icon
+    texture: {fileID: -6416366940944881821, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_NavMeshAgent Icon
+    texture: {fileID: 3897814842762760142, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_NavMeshData Icon
+    texture: {fileID: -1526951116105809391, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_NavMeshObstacle Icon
+    texture: {fileID: -5015426118682326553, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_OffMeshLink Icon
+    texture: {fileID: -1543109780647302783, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_AnimationClip Icon
+    texture: {fileID: -3945805152363740611, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ReflectionProbe Icon
+    texture: {fileID: -1426863774865177168, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ArticulationBody Icon
+    texture: {fileID: 4173395557176138114, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Sprite Icon
+    texture: {fileID: -7488892736546010119, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_BoxCollider2D Icon
+    texture: {fileID: 2230726447646993015, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_BuoyancyEffector2D Icon
+    texture: {fileID: 3491322054811378011, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Canvas Icon
+    texture: {fileID: 6918890264710435130, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CapsuleCollider Icon
+    texture: {fileID: 4324838011611431935, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CapsuleCollider2D Icon
+    texture: {fileID: -2692084220489661059, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CharacterController Icon
+    texture: {fileID: 1265989506976873869, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CharacterJoint Icon
+    texture: {fileID: 1875044191613582765, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CircleCollider2D Icon
+    texture: {fileID: 7882515739285264159, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Cloth Icon
+    texture: {fileID: -4589857841803046298, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_CompositeCollider2D Icon
+    texture: {fileID: -2004682403923740574, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ConfigurableJoint Icon
+    texture: {fileID: -8365020397241257277, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ConstantForce Icon
+    texture: {fileID: -3622910732158155974, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_EventSystem Icon
+    texture: {fileID: -4387529911086606607, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_ConstantForce2D Icon
+    texture: {fileID: -5712622568368013079, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_DistanceJoint2D Icon
+    texture: {fileID: 6664071900287422854, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_WheelJoint2D Icon
+    texture: {fileID: 6192141092834927191, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_EdgeCollider2D Icon
+    texture: {fileID: -4574213285256128959, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_FixedJoint Icon
+    texture: {fileID: -7056137702951936110, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_FrictionJoint2D Icon
+    texture: {fileID: 4037354640048256451, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_Grid Icon
+    texture: {fileID: 2925954276054455316, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_HingeJoint Icon
+    texture: {fileID: -7049302993581372179, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_HingeJoint2D Icon
+    texture: {fileID: 4952710011494502320, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_LineRenderer Icon
+    texture: {fileID: -503134899462992896, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PolygonCollider2D Icon
+    texture: {fileID: -6584174250388574261, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_MeshCollider Icon
+    texture: {fileID: 8799233773559208360, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PhysicMaterial Icon
+    texture: {fileID: -1218883958213205822, guid: 0000000000000000d000000000000000, type: 0}
+  - name: d_PhysicsMaterial2D Icon
+    texture: {fileID: 2086867310453074094, guid: 0000000000000000d000000000000000, type: 0}
+  gradients:
+  - colors:
+    - {r: 1, g: 1, b: 1, a: 1}
+  - colors:
+    - {r: 0, g: 0, b: 0, a: 1}
+  - colors:
+    - {r: 1, g: 0, b: 0, a: 1}
+  - colors:
+    - {r: 0, g: 1, b: 0, a: 1}
+  - colors:
+    - {r: 0, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 1, g: 1, b: 0, a: 1}
+  - colors:
+    - {r: 0, g: 1, b: 1, a: 1}
+  - colors:
+    - {r: 1, g: 0.49411765, b: 0, a: 1}
+  - colors:
+    - {r: 1, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0.45882353, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 1, g: 0, b: 0, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 0, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 0, g: 1, b: 0, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 1, g: 1, b: 0, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 0, g: 1, b: 1, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 1, g: 0.49331057, b: 0, a: 1}
+  - colors:
+    - {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 1}
+    - {r: 1, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 0.457057, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 1, g: 0.49019608, b: 0.49019608, a: 1}
+    - {r: 1, g: 0, b: 0, a: 1}
+  - colors:
+    - {r: 1, g: 0.49019608, b: 0.49019608, a: 0}
+    - {r: 1, g: 0, b: 0, a: 1}
+  - colors:
+    - {r: 0.49019608, g: 0.49019608, b: 1, a: 1}
+    - {r: 0, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0.49019608, g: 0.49019608, b: 1, a: 0}
+    - {r: 0, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0.6650944, g: 1, b: 0.6650944, a: 1}
+    - {r: 0, g: 1, b: 0, a: 1}
+  - colors:
+    - {r: 0.6666667, g: 1, b: 0.6666667, a: 0}
+    - {r: 0, g: 1, b: 0, a: 1}
+  - colors:
+    - {r: 1, g: 1, b: 0.6862745, a: 1}
+    - {r: 1, g: 1, b: 0, a: 1}
+  - colors:
+    - {r: 1, g: 1, b: 0.6862745, a: 0}
+    - {r: 1, g: 1, b: 0, a: 1}
+  - colors:
+    - {r: 0.6862745, g: 1, b: 1, a: 1}
+    - {r: 0, g: 1, b: 1, a: 1}
+  - colors:
+    - {r: 0.6862745, g: 1, b: 1, a: 0}
+    - {r: 0, g: 1, b: 1, a: 1}
+  - colors:
+    - {r: 1, g: 0.78431374, b: 0.5882353, a: 1}
+    - {r: 1, g: 0.49331057, b: 0, a: 1}
+  - colors:
+    - {r: 1, g: 0.78431374, b: 0.5882353, a: 0}
+    - {r: 1, g: 0.49331057, b: 0, a: 1}
+  - colors:
+    - {r: 1, g: 0.49019608, b: 1, a: 1}
+    - {r: 1, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 1, g: 0.49019608, b: 1, a: 0}
+    - {r: 1, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0.82896787, g: 0.49019608, b: 1, a: 1}
+    - {r: 0.457057, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0.82896787, g: 0.49019608, b: 1, a: 0}
+    - {r: 0.457057, g: 0, b: 1, a: 1}
+  - colors:
+    - {r: 0, g: 0, b: 0, a: 0}
+    - {r: 1, g: 0, b: 0, a: 1}
